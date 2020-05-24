@@ -3,14 +3,14 @@
 
 ---
 ## Descrição
-Este é um repositório da disciplina Visão Computacional no Melhoramento de Plantas do Programa de Pós Graduação em Genética e Melhoramento de Plantas da Universidade Federal de Lavras - UFLA.
+Este é um repositório da disciplina Visão Computacional no Melhoramento de Plantas do Programa oferecida pelo Programa de Pós Graduação em Genética e Melhoramento de Plantas da Universidade Federal de Lavras - UFLA.
 
 ---
 ## Responsável
 
-- Vinícius Quintão Carneiro - Professor adjunto da Universidade Federal de Lavras 
+- Vinícius Quintão Carneiro - Professor do Programa de Pós Graduação em Genética e Melhoramento de Palntas da Universidade Federal de Lavras
 - Contato: vinicius.carneiro@ufla.br
-- Área de Atuação: Genética e MElhoramento do Feijoeiro
+- Áreaa de Atuação: Genética e Melhoramento do Feijoeiro; Ciência de Dados.
 - Lattes: http://lattes.cnpq.br/7418046043420782 
 
 ---
