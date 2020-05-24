@@ -1,1 +1,1 @@
-# Processamento-de-Imagens-e-Reconhecimento-de-Padr-es-no-Melhoramento-de-Plantas
+# Processamento-de-Imagens-e-Reconhecimento-de-Padrões-no-Melhoramento-de-Plantas
