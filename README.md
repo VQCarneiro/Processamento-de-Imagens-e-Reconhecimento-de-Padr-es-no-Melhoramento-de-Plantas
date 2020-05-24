@@ -17,7 +17,7 @@ Este é um repositório da disciplina Visão Computacional no Melhoramento de Pl
 ## OBJETIVO GERAL
 - Difundir conhecimentos sobre processamento de imagens e reconhecimento de padrões.
 
-# OBJETIVOS ESPECÍFICOS
+### OBJETIVOS ESPECÍFICOS
 - Difundir conhecimentos na linguagem de programação Python
 - Disponibilizar códigos em Python sobre processamento de imagens
 - Difundir conhecimentos sobre inteligênica artificial
