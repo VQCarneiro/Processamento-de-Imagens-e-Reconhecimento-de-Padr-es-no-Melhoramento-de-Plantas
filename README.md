@@ -15,7 +15,7 @@ Este é um repositório da disciplina Visão Computacional no Melhoramento de Pl
 
 ---
 ## OBJETIVO GERAL
-- Difundir conhecimentos sobre processamento de imagens e reconhecimento de padrões.
+- Difundir conhecimentos sobre processamento de imagens e reconhecimento de padrões para a área de melhoramento genético de plantas.
 
 ### OBJETIVOS ESPECÍFICOS
 - Difundir conhecimentos na linguagem de programação Python
