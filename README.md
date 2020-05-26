@@ -10,7 +10,7 @@ Este é o repositório da disciplina Visão Computacional no Melhoramento de Pla
 
 - Vinícius Quintão Carneiro - Professor do Programa de Pós Graduação em Genética e Melhoramento de Plantas da Universidade Federal de Lavras
 - Contato: vinicius.carneiro@ufla.br
-- Área de Atuação: Genética e Melhoramento do Feijoeiro; Ciência de Dados.
+- Área de Atuação: Genética e Melhoramento do Feijoeiro; Ciência de Dados no Melhoramento Genético.
 - Lattes: http://lattes.cnpq.br/7418046043420782 
 
 ---
