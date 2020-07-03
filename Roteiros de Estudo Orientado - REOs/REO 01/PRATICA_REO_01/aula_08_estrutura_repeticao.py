@@ -1,22 +1,19 @@
 ########################################################################################################################
-# DATA: 28/06/2020
+# DATA: 03/07/2020
 # DISCIPLINA: VISÃO COMPUTACIONAL NO MELHORAMENTO DE PLANTAS
 # PROFESSOR: VINÍCIUS QUINTÃO CARNEIRO
 # E-MAIL: vinicius.carneiro@ufla.br
-# GITHUB: vqcarneiro
+# GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
 # AULA 08
 # TEMA: Estruturas de repetição
-
-########################################################################################################################
-# Importação de bibliotecas
-import time
 ########################################################################################################################
 '''
 #Exemplo 01: Estrutura de repetição for - Básico
 print('-----------------------------------------------------------------------------------------------------------------')
 print('Exemplo 01 - Estruturas de Repetição (for) - Básico')
 print('-----------------------------------------------------------------------------------------------------------------')
+import time
 alturas = [1.80,1.75,1.65,1.92, 1.88,1.70,1.55,1.92,2.01]
 print('Lista Alturas: ' + str(alturas))
 print('-----------------------------------------------------------------------------------------------------------------')
@@ -32,6 +29,7 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 print('-----------------------------------------------------------------------------------------------------------------')
 print('Exemplo 02 - Estruturas de Repetição - iterador')
 print('-----------------------------------------------------------------------------------------------------------------')
+import time
 alturas = [1.80,1.75,1.65,1.92, 1.88,1.70,1.55,1.92,2.01]
 print('Lista Alturas: ' + str(alturas))
 print('Número de elementos do vetor alturas: ' + str(len(alturas)))
@@ -52,6 +50,7 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 print('-----------------------------------------------------------------------------------------------------------------')
 print('Exemplo 03 - Estruturas de Repetição - posições')
 print('-----------------------------------------------------------------------------------------------------------------')
+import time
 alturas = [1.80,1.75,1.65,1.92, 1.88,1.70,1.55,1.92,2.01]
 print('Lista Alturas: ' + str(alturas))
 print('Número de elementos do vetor alturas: ' + str(len(alturas)))
@@ -72,6 +71,7 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 print('-----------------------------------------------------------------------------------------------------------------')
 print('Exemplo 04 - Estruturas de Repetição - enumerate')
 print('-----------------------------------------------------------------------------------------------------------------')
+import time
 alturas = [1.80,1.75,1.65,1.92, 1.88,1.70,1.55,1.92,2.01]
 print('Lista Alturas: ' + str(alturas))
 print('Número de elementos do vetor alturas: ' + str(len(alturas)))
@@ -89,9 +89,10 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 '''
 #Exemplo 05: Estrutura de repetição for - Matriz (linhas)
 print('-----------------------------------------------------------------------------------------------------------------')
-print('Exemplo 04 - Estruturas de Repetição - Matriz (linhas)')
+print('Exemplo 05 - Estruturas de Repetição - Matriz (linhas)')
 print('-----------------------------------------------------------------------------------------------------------------')
 import numpy as np
+import time
 dados = np.loadtxt('dados_selecionados.txt')
 nl,nc = np.shape(dados)
 
@@ -114,11 +115,12 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 '''
 
 '''
-#Exemplo 05: Estrutura de repetição for - Matriz (colunas)
+#Exemplo 06: Estrutura de repetição for - Matriz (colunas)
 print('-----------------------------------------------------------------------------------------------------------------')
-print('Exemplo 04 - Estruturas de Repetição - Matriz (colunas)')
+print('Exemplo 06 - Estruturas de Repetição - Matriz (colunas)')
 print('-----------------------------------------------------------------------------------------------------------------')
 import numpy as np
+import time
 dados = np.loadtxt('dados_selecionados.txt')
 nl,nc = np.shape(dados)
 
@@ -141,11 +143,12 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 '''
 
 '''
-#Exemplo 05: Estrutura de repetição for - Matriz (completa)
+#Exemplo 07: Estrutura de repetição for - Matriz (completa)
 print('-----------------------------------------------------------------------------------------------------------------')
-print('Exemplo 04 - Estruturas de Repetição - Matriz (completa)')
+print('Exemplo 07 - Estruturas de Repetição - Matriz (completa)')
 print('-----------------------------------------------------------------------------------------------------------------')
 import numpy as np
+import time
 dados = np.loadtxt('dados_selecionados.txt')
 nl,nc = np.shape(dados)
 
@@ -181,10 +184,11 @@ print(matriz_quadrados)
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 '''
 '''
-#Exemplo 05: Estrutura de repetição while
+#Exemplo 08: Estrutura de repetição while
 print('-----------------------------------------------------------------------------------------------------------------')
-print('Exemplo 04 - Estruturas de Repetição While')
+print('Exemplo 08 - Estruturas de Repetição While')
 print('-----------------------------------------------------------------------------------------------------------------')
+import time
 contador = 0
 while contador != 15:
     contador +=1
@@ -193,11 +197,12 @@ while contador != 15:
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 '''
 '''
-#Exemplo 05: Estrutura de repetição While
+#Exemplo 09: Estrutura de repetição While
 print('-----------------------------------------------------------------------------------------------------------------')
-print('Exemplo 04 - Estruturas de Repetição While')
+print('Exemplo 09 - Estruturas de Repetição While')
 print('-----------------------------------------------------------------------------------------------------------------')
 import numpy as np
+import time
 vetor = np.array([10,24,23,19,55,129,315,7,4])
 print('Vetor: ' + str(vetor))
 print('Dimensão: ' +str(len(vetor)))

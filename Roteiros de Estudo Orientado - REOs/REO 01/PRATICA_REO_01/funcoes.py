@@ -1,13 +1,14 @@
 ########################################################################################################################
-# DATA: 02/07/2020
+# DATA: 03/07/2020
 # DISCIPLINA: VISÃO COMPUTACIONAL NO MELHORAMENTO DE PLANTAS
 # PROFESSOR: VINÍCIUS QUINTÃO CARNEIRO
 # E-MAIL: vinicius.carneiro@ufla.br
-# GITHUB: vqcarneiro
+# GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
+# Aula 09
 # TEMA: Funções
 ########################################################################################################################
-#Exemplo 02: Função para amostrar valores de um vetor e calcular sua média
+#Exemplo 02: Função para amostrar valores de um vetor e calcular sua medidas de posição e dispersão
 import numpy as np
 import random
 
@@ -25,6 +26,8 @@ def amostrar(vetor,tamanho_amostra = None,numero_amostragens = 100):
     it = 0
     matriz_resultado = np.zeros((numero_amostragens,6))
     for i in np.arange(0,numero_amostragens,1):
+        print(
+            '-----------------------------------------------------------------------------------------------------------------')
         it += 1  # it = it+1
         print('Amostragem: ' + str(it))
         print('Vetor: ' + str(vetor))
@@ -55,7 +58,7 @@ def amostrar(vetor,tamanho_amostra = None,numero_amostragens = 100):
         print('Máximo: ' + str(maximo))
         print('Minimo: ' + str(minimo))
         print('Amplitude: ' + str(amplitude))
-        print('-----------------------------------------------------------------------------------------------------------------')
+
 
     return matriz_resultado
 #print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')

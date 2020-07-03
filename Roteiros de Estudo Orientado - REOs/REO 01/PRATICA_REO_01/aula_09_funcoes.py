@@ -1,16 +1,17 @@
 ########################################################################################################################
-# DATA: 28/06/2020
+# DATA: 03/07/2020
 # DISCIPLINA: VISÃO COMPUTACIONAL NO MELHORAMENTO DE PLANTAS
 # PROFESSOR: VINÍCIUS QUINTÃO CARNEIRO
 # E-MAIL: vinicius.carneiro@ufla.br
-# GITHUB: vqcarneiro
+# GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# AULA 08
+# AULA 09
 # TEMA: Funções
 
 ########################################################################################################################
-#Exemplo 01: Função para calcular o somatório
 '''
+#Exemplo 01: Função para calcular o somatório
+
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 print('-------------------------------------------------------------------------------------------------------------')
 print('Exemplo 01 - Função - Calculo do Somatório de um Array')
@@ -55,6 +56,7 @@ import numpy as np
 from funcoes import amostrar
 vt = np.array([10, 20, 30, 40, 50, 25])
 resultado_amostragem = amostrar(vt,tamanho_amostra=3,numero_amostragens=1000)
+print('-----------------------------------------------------------------------------------------------------------------')
 print('Resultado:')
 print('  Amostra     Média     Var     Máx      Mín      Amp')
 np.set_printoptions(precision=2)

@@ -1,12 +1,12 @@
 ########################################################################################################################
-# DATA: 28/06/2020
+# DATA: 03/07/2020
 # DISCIPLINA: VISÃO COMPUTACIONAL NO MELHORAMENTO DE PLANTAS
 # PROFESSOR: VINÍCIUS QUINTÃO CARNEIRO
 # E-MAIL: vinicius.carneiro@ufla.br
-# GITHUB: vqcarneiro
+# GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
 # AULA 01
-# TEMA: COMENTÁRIOS
+# TEMA: CONFIGURAÇÃO PYCHARM E COMENTÁRIOS
 ########################################################################################################################
 # Configurar Pycharm
 # File -> Settings -> Editor -> Colors and Fonts -> Font
@@ -31,7 +31,7 @@
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Forma 2: Comenta um trecho do código - Utilizar três aspas para abrir e três aspas para fechar o trecho a ser comentado
 
-#Exemplo 01
+#Exemplo 02
 '''
 a = 5
 b = 3

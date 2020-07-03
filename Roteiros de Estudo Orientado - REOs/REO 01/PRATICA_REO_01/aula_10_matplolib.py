@@ -1,12 +1,12 @@
 ########################################################################################################################
-# DATA: 28/06/2020
+# DATA: 03/07/2020
 # DISCIPLINA: VISÃO COMPUTACIONAL NO MELHORAMENTO DE PLANTAS
 # PROFESSOR: VINÍCIUS QUINTÃO CARNEIRO
 # E-MAIL: vinicius.carneiro@ufla.br
-# GITHUB: vqcarneiro
+# GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# AULA 05
-# TEMA: Tipos complexos de dados (Coleções) - Listas, Tuplas e Dicionários
+# AULA 10
+# TEMA: Gráficos
 
 ########################################################################################################################
 #Exemplo 1: Gráficos de Dispersão
