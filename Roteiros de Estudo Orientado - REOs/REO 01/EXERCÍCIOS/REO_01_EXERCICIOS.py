@@ -72,7 +72,7 @@
 # b) Pesquise sobre as funções np.unique e np.where da biblioteca numpy
 # c) Obtenha de forma automática os genótipos e quantas repetições foram avaliadas
 # d) Apresente uma matriz contendo somente as colunas 1, 2 e 4
-# e) Obtenha uma matriz que contenha o máximo, o mínimo, a média e a variância de cada genótipo para a variavel da coluna 4. Salve esta matriz em bloco de notas e em excel.
+# e) Obtenha uma matriz que contenha o máximo, o mínimo, a média e a variância de cada genótipo para a variavel da coluna 4. Salve esta matriz em bloco de notas.
 # f) Obtenha os genótipos que possuem média (médias das repetições) igual ou superior a 500 da matriz gerada na letra anterior.
 # g) Apresente os seguintes graficos:
 #    - Médias dos genótipos para cada variável. Utilizar o comando plt.subplot para mostrar mais de um grafico por figura

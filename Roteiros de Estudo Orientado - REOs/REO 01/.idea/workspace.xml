@@ -18,8 +18,8 @@
       <file leaf-file-name="REO_01_EXERCICIOS.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/EXERCÍCIOS/REO_01_EXERCICIOS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="648">
-              <caret line="75" column="127" lean-forward="true" selection-start-line="75" selection-start-column="127" selection-end-line="75" selection-end-column="127" />
+            <state relative-caret-position="682">
+              <caret line="77" column="121" lean-forward="true" selection-start-line="77" selection-start-column="121" selection-end-line="77" selection-end-column="121" />
               <folding />
             </state>
           </provider>
@@ -69,6 +69,7 @@
         <option value="$PROJECT_DIR$/PRATICA_REO_01/aula_10_matplolib.py" />
         <option value="$PROJECT_DIR$/PRATICA_REO_01/aula_08_estrutura_repeticao.py" />
         <option value="$PROJECT_DIR$/Avaliação/REO_01_EXERCICIOS.py" />
+        <option value="$PROJECT_DIR$/EXERCÍCIOS/REO_01_EXERCICIOS.py" />
       </list>
     </option>
   </component>
@@ -93,6 +94,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -121,8 +124,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -393,11 +394,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/EXERCÍCIOS/REO_01_EXERCICIOS.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/EXERCÍCIOS/dados.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PRATICA_REO_01/aula_08_estrutura_repeticao.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2465">
           <caret line="145" column="65" lean-forward="true" selection-start-line="145" selection-start-column="65" selection-end-line="145" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -405,7 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="646">
           <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -413,7 +428,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -470,7 +484,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -478,7 +491,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1360">
           <caret line="80" column="36" lean-forward="true" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -528,7 +540,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -536,7 +547,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1428">
           <caret line="84" column="0" lean-forward="true" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="38" column="58" lean-forward="false" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -665,7 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="315" column="0" lean-forward="false" selection-start-line="315" selection-start-column="0" selection-end-line="316" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -673,7 +681,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="167" column="44" lean-forward="false" selection-start-line="167" selection-start-column="44" selection-end-line="167" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -687,8 +694,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/EXERCÍCIOS/REO_01_EXERCICIOS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="75" column="127" lean-forward="true" selection-start-line="75" selection-start-column="127" selection-end-line="75" selection-end-column="127" />
+        <state relative-caret-position="682">
+          <caret line="77" column="121" lean-forward="true" selection-start-line="77" selection-start-column="121" selection-end-line="77" selection-end-column="121" />
           <folding />
         </state>
       </provider>
