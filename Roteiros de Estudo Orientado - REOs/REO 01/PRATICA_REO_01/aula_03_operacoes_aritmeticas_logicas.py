@@ -45,7 +45,7 @@ soma_str = a+' '+b+c # Concatenação
 print('Exemplo 02 - OPERAÇÕES STRINGS')
 print('A variável a contém: ' + str(a))
 print('A variável b contém: ' + str(b))
-print('A variável b contém: ' + str(c))
+print('A variável c contém: ' + str(c))
 print('A variável soma (a+b+c) contém: ' + str(soma_str))
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 '''

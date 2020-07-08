@@ -13,7 +13,7 @@
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 print('Exemplo 01 - ESTRUTURA DE CONDIÇÃO: IF ELSE')
 
-joao_idade = 18
+joao_idade = 16
 print('A idade de João é: ' + str(joao_idade))
 
 if joao_idade>=18:

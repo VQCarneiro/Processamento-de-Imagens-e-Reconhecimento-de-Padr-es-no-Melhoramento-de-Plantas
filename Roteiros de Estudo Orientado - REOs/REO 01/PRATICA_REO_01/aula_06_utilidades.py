@@ -14,7 +14,7 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 print('Exemplo 01 - Sequências')
 print('-----------------------------------------------------------------------------------------------------------------')
 
-seq= range(0,10,1)
+seq = range(0,10,1)
 print('Sequência: ' + str(seq))
 print('Tipo')
 print(type(seq))
@@ -32,7 +32,7 @@ print('-------------------------------------------------------------------------
 maximo = max(lista_seq)
 print('Máximo: ' + str(maximo))
 minimo = min(lista_seq)
-print('Máximo: ' + str(minimo))
+print('Mínimo: ' + str(minimo))
 somatorio = sum(lista_seq)
 print('Somatório: ' + str(somatorio))
 
@@ -53,7 +53,7 @@ print('Aleatorização: ' +str(lista_seq_aleatoria))
 amostra_aleatoria = random.sample(lista_seq,4)
 print('Amosta aleatória: ' + str(amostra_aleatoria))
 
-amostra_aleatoria_ord = sorted(amostra_aleatoria,reverse=True)
+amostra_aleatoria_ord = sorted(amostra_aleatoria,reverse=False)
 print('Amostra Ordenada: ' + str(amostra_aleatoria_ord))
 print('-----------------------------------------------------------------------------------------------------------------')
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')

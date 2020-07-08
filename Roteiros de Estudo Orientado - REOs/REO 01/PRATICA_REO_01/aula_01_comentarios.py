@@ -11,7 +11,6 @@
 # Configurar Pycharm
 # File -> Settings -> Editor -> Colors and Fonts -> Font
 # File -> Settings -> Editor -> Colors and Fonts -> Console Font
-
 ########################################################################################################################
 # Formas de comentar o código
 # Forma 1: Comenta a linha - Utilizar o jogo da velha (#) no início da linha
@@ -21,7 +20,7 @@
 #print('Olá Mundo!')
 
 #Exemplo 02:
-#a = 5
+#a = 5 # A variável a recebe 5
 #b = 3
 #c = a + b
 #print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
@@ -31,7 +30,7 @@
 #-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 # Forma 2: Comenta um trecho do código - Utilizar três aspas para abrir e três aspas para fechar o trecho a ser comentado
 
-#Exemplo 02
+#Exemplo 03
 '''
 a = 5
 b = 3
@@ -42,8 +41,8 @@ print('Resposta: '+ str(c))
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
 '''
 
-#Exemplo 03
-#'''
+#Exemplo 04
+'''
 a = 5
 b = 3
 c = a + b
@@ -51,7 +50,7 @@ print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
 print('Exemplo 03: utilização de # para comentar as aspas')
 print('Resposta: ' + str(c))
 print('-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=')
-#'''
+'''
 ########################################################################################################################
 
 
