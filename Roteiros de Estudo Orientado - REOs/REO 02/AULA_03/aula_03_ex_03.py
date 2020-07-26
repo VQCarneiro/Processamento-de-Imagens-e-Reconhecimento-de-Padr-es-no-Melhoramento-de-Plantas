@@ -17,29 +17,16 @@ import numpy as np # Importa o pacote numpy
 from matplotlib import pyplot as plt # Importa o pacote matplotlib
 ########################################################################################################################
 # Leitura da imagem
-
-nome_arquivo = 'img_feijao.jpg'
 nome_arquivo = 'feijao.jpg'
 img_bgr = cv2.imread(nome_arquivo,1)
 img_rgb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2RGB)
 img_Lab = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2Lab)
-
-print('----------------------------------------------------------------------------------------------------------------')
-print('INFORMAÇÕES DA IMAGEM')
-print('----------------------------------------------------------------------------------------------------------------')
-lin, col, canais = np.shape(img_bgr)
-print('Dimensão: ' + str(lin) +' x '+ str(col))
-print('Canais: ' + str(canais))
-print('Largura: ' + str(col))
-print('Altura: ' + str(lin))
-print('----------------------------------------------------------------------------------------------------------------')
 ########################################################################################################################
 # Partição dos canais
 L,a,b = cv2.split(img_Lab)
 ########################################################################################################################
 # Histograma escala de cinza
 hist_b = cv2.calcHist([b],[0], None, [256],[0,256])
-
 ########################################################################################################################
 # Limiarização - Thresholding
 limiar_b = 110
@@ -62,6 +49,8 @@ img_segmentada = cv2.bitwise_and(img_rgb,img_rgb,mask=img_limiar)
 plt.figure('Thresholding')
 plt.subplot(2,2,1)
 plt.imshow(img_rgb)
+plt.xticks([])
+plt.yticks([])
 plt.title('RGB')
 
 plt.subplot(2,2,2)
@@ -74,20 +63,28 @@ plt.ylabel("Número de Pixels")
 
 plt.subplot(2,2,3)
 plt.imshow(img_limiar,cmap='gray')
+plt.xticks([])
+plt.yticks([])
 plt.title('Limiar: ' + str(limiar_b))
 
 plt.subplot(2,2,4)
 plt.imshow(img_limiar_inv,cmap='gray')
 plt.title('Limiar: ' + str(limiar_b))
+plt.xticks([])
+plt.yticks([])
 
 plt.figure('Segmentação')
 plt.subplot(1,2,1)
 plt.imshow(img_rgb)
 plt.title('RGB')
+plt.xticks([])
+plt.yticks([])
 
 plt.subplot(1,2,2)
 plt.imshow(img_segmentada)
 plt.title('Segmentada')
+plt.xticks([])
+plt.yticks([])
 
 plt.show()
 ########################################################################################################################

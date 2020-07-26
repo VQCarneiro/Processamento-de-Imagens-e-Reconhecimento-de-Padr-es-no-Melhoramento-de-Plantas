@@ -18,7 +18,7 @@ from matplotlib import pyplot as plt # Importa o pacote matplotlib
 ########################################################################################################################
 # Leitura da imagem
 
-nome_arquivo = 'img_feijao.jpg'
+nome_arquivo = 'feijao.jpg'
 img_bgr = cv2.imread(nome_arquivo,1)
 img_rgb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2RGB)
 img_cinza = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2GRAY)
@@ -40,7 +40,6 @@ hist_cinza = cv2.calcHist([img_cinza],[0], None, [256],[0,256])
 # Limiarização - Thresholding
 
 (L,img_otsu) = cv2.threshold(img_cinza,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
-(L,img_otsu_inv) = cv2.threshold(img_cinza,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
 
 print('----------------------------------------------------------------------------------------------------------------')
 print('INFORMAÇÕES DO AULA_03')
@@ -54,6 +53,8 @@ print('-------------------------------------------------------------------------
 plt.figure('Thresholding')
 plt.subplot(2,2,1)
 plt.imshow(img_rgb)
+plt.xticks([])
+plt.yticks([])
 plt.title('RGB')
 
 plt.subplot(2,2,2)
@@ -67,10 +68,8 @@ plt.ylabel("Número de Pixels")
 plt.subplot(2,2,3)
 plt.imshow(img_otsu,cmap='gray')
 plt.title('Binário - L: ' + str(L))
-
-plt.subplot(2,2,4)
-plt.imshow(img_otsu_inv,cmap='gray')
-plt.title('Binário Invertido: L: ' + str(L))
+plt.xticks([])
+plt.yticks([])
 
 plt.show()
 ########################################################################################################################

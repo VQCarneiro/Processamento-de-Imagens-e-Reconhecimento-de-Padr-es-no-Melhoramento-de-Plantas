@@ -18,7 +18,7 @@ from matplotlib import pyplot as plt # Importa o pacote matplotlib
 ########################################################################################################################
 # Leitura da imagem
 
-nome_arquivo = 'img_feijao.jpg'
+nome_arquivo = 'feijao.jpg'
 img_bgr = cv2.imread(nome_arquivo,1)
 img_rgb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2RGB)
 img_Lab = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2Lab)
@@ -61,6 +61,8 @@ plt.figure('Thresholding')
 plt.subplot(2,2,1)
 plt.imshow(img_rgb)
 plt.title('RGB')
+plt.xticks([])
+plt.yticks([])
 
 plt.subplot(2,2,2)
 plt.plot(hist_b,color = 'black')
@@ -73,19 +75,27 @@ plt.ylabel("Número de Pixels")
 plt.subplot(2,2,3)
 plt.imshow(img_limiar,cmap='gray')
 plt.title('Limiar: ' + str(L))
+plt.xticks([])
+plt.yticks([])
 
 plt.subplot(2,2,4)
 plt.imshow(img_limiar_inv,cmap='gray')
 plt.title('Limiar: ' + str(L))
+plt.xticks([])
+plt.yticks([])
 
 plt.figure('Segmentação')
 plt.subplot(1,2,1)
 plt.imshow(img_rgb)
 plt.title('RGB')
+plt.xticks([])
+plt.yticks([])
 
 plt.subplot(1,2,2)
 plt.imshow(img_segmentada)
 plt.title('Segmentada')
+plt.xticks([])
+plt.yticks([])
 
 plt.show()
 ########################################################################################################################
