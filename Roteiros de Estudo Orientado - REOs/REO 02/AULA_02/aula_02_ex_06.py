@@ -19,6 +19,7 @@ from matplotlib import pyplot as plt # Importa o pacote matplotlib
 
 #nome_arquivo = 'img_feijao.jpg'
 nome_arquivo = 'feijao.jpg'
+nome_arquivo = 'batata.jpg'
 
 img_bgr = cv2.imread(nome_arquivo,1)
 img_YCRCB = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2YCR_CB)
