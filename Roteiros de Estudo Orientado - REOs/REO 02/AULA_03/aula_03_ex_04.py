@@ -37,8 +37,10 @@ hist_b = cv2.calcHist([b],[0], None, [256],[0,256])
 #'''
 # Obtendo imagem segmentada
 img_segmentada = cv2.bitwise_and(img_rgb,img_rgb,mask=img_limiar)
+
 # Salvar imagens
-cv2.imwrite('feijao_segmentada.png',img_segmentada)
+img_segmentada_bgr = cv2.cvtColor(img_segmentada,cv2.COLOR_RGB2BGR)
+cv2.imwrite('feijao_segmentada.png',img_segmentada_bgr)
 
 hist_sementes_r = cv2.calcHist([img_segmentada],[0],img_limiar,[256],[0,256])
 hist_sementes_g = cv2.calcHist([img_segmentada],[1],img_limiar,[256],[0,256])
