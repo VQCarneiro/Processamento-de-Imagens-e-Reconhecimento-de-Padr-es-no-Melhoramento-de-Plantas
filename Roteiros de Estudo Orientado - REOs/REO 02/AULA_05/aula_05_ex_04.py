@@ -9,7 +9,7 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Filtros
+# PROCEDIMENTO: Filtros - Segmentação
 ########################################################################################################################
 # Importar pacotes
 import cv2 # Importa o pacote opencv
@@ -65,6 +65,7 @@ plt.xticks([]) # Eliminar o eixo X
 plt.yticks([]) # Eliminar o eixo Y
 plt.title("B Mediana")
 plt.show()
+
 ########################################################################################################################
 #Histogramas
 
@@ -80,13 +81,14 @@ plt.subplot(2,3,1)
 plt.imshow(r,cmap='gray')
 plt.xticks([])
 plt.yticks([])
+plt.title('Sem Filtro')
 
 plt.subplot(2,3,2)
 plt.plot(hist_r,color = 'r')
 plt.axvline(x=l,color = 'k')
 plt.title("L: "+str(l))
 plt.xlim([0,256])
-plt.xlabel("Valores Pixels")
+#plt.xlabel("Valores Pixels")
 plt.ylabel("Número de Pixels")
 
 plt.subplot(2,3,3)
@@ -99,6 +101,7 @@ plt.subplot(2,3,4)
 plt.imshow(r_mediana,cmap='gray')
 plt.xticks([])
 plt.yticks([])
+plt.title('Com Filtro')
 
 plt.subplot(2,3,5)
 plt.plot(hist_r_mediana,color = 'r')

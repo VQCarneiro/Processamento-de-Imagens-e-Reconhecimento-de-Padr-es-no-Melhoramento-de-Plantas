@@ -9,19 +9,19 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Filtros
+# PROCEDIMENTO: Filtros - Remoção de ruidos
 ########################################################################################################################
 # Importar pacotes
 import cv2 # Importa o pacote opencv
 from matplotlib import pyplot as plt # Importa o pacote matplotlib
-import skimage
+import skimage # Importa o pacote Scikit-Image
 ########################################################################################################################
 # Leitura da imagem
 
 nome_arquivo = 'feijao.jpg'
 img_bgr = cv2.imread(nome_arquivo,1)
 img_rgb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2RGB)
-img_rgb = skimage.util.random_noise(img_rgb, mode="s&p")
+img_rgb = skimage.util.random_noise(img_rgb, mode="s&p") # https://scikit-image.org/docs/dev/api/skimage.util.html#skimage.util.random_noise
 ########################################################################################################################
 # Filtros
 # Média

@@ -9,13 +9,12 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Identificação de Objetos
+# PROCEDIMENTO: Identificação e Mensuração de Objetos
 ########################################################################################################################
 # Importar pacotes
 import cv2 # Importa o pacote opencv
 import numpy as np
 from matplotlib import pyplot as plt # Importa o pacote matplotlib
-import imutils
 from skimage.measure import label, regionprops
 ########################################################################################################################
 # Leitura da imagem
@@ -31,22 +30,19 @@ Y,Cr,Cb = cv2.split(img_YCrCb)
 Cb = cv2.medianBlur(Cb,9)
 ########################################################################################################################
 # Histograma do canal informativo
-hist_Cr = cv2.calcHist([Cb],[0], None, [256],[0,256])
+hist_Cb = cv2.calcHist([Cb],[0], None, [256],[0,256])
 ########################################################################################################################
 # Limiarização - Thresholding
-(L, img_limiar) = cv2.threshold(Cb,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 (L, img_limiar_inv) = cv2.threshold(Cb,0,255,cv2.THRESH_BINARY_INV+cv2.THRESH_OTSU)
 ########################################################################################################################
 # Obtendo imagem segmentada
 img_segmentada = cv2.bitwise_and(img_rgb,img_rgb,mask=img_limiar_inv)
-#img_segmentada = cv2.cvtColor(img_segmentada,cv2.COLOR_RGB2BGR)
-#cv2.imwrite('segmentada.png',img_segmentada)
 
 ########################################################################################################################
 # Objetos
 mascara = img_limiar_inv.copy()
-image,cnts,hierarchy = cv2.findContours(mascara, cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)
-#cv2.imwrite('mascara.png',mascara)
+cnts,h = cv2.findContours(mascara, cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+
 ########################################################################################################################
 # Dados Sementes
 print('-'*50)
@@ -61,26 +57,17 @@ for (i, c) in enumerate(cnts):
 	cv2.imwrite('s'+str(i+1)+'.png',obj_bgr)
 	cv2.imwrite('sb'+str(i+1)+'.png',obj)
 
-	regions = regionprops(obj) #https: // scikit - image.org / docs / dev / api / skimage.measure.html  # skimage.measure.regionprops
+	regiao = regionprops(obj) #https: // scikit - image.org / docs / dev / api / skimage.measure.html  # skimage.measure.regionprops
 	print('Semente: ', str(i+1))
 	print('Dimensão da Imagem: ', np.shape(obj))
 	print('Medidas Físicas')
-	print('Centroide: ', regions[0].centroid)
-	print('Comprimento do eixo menor: ', regions[0].minor_axis_length)
-	print('Comprimento do eixo maior: ', regions[0].major_axis_length)
-	print('Razão L/H: ', regions[0].major_axis_length / regions[0].minor_axis_length)
+	print('Centroide: ', regiao[0].centroid)
+	print('Comprimento do eixo menor: ', regiao[0].minor_axis_length)
+	print('Comprimento do eixo maior: ', regiao[0].major_axis_length)
+	print('Razão: ', regiao[0].major_axis_length / regiao[0].minor_axis_length)
 	area = cv2.contourArea(c)
 	print('Área: ', area)
 	print('Perímetro: ', cv2.arcLength(c,True))
-	area_ret = w * h
-	ext = float(area)/area_ret
-	print('Extensão: ', ext)
-	hull = cv2.convexHull(c)
-	hull_area = cv2.contourArea(hull)
-	solidez = float(area) / hull_area
-	print('Solidez: ', solidez)
-	equi_diameter = np.sqrt(4 * area / np.pi)
-	print('')
 
 	print('Medidas de Cor')
 	min_val_r, max_val_r, min_loc_r, max_loc_r = cv2.minMaxLoc(obj_rgb[:,:,0], mask=obj)
@@ -110,6 +97,7 @@ print('-'*50)
 
 seg = img_segmentada.copy()
 cv2.drawContours(seg,cnts,-1,(0,255,0),2)
+
 plt.figure('Sementes')
 plt.subplot(1,2,1)
 plt.imshow(seg)

@@ -9,7 +9,7 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Filtros
+# PROCEDIMENTO: Filtro média
 # https://opencv-python-tutroals.readthedocs.io/en/latest/py_tutorials/py_imgproc/py_filtering/py_filtering.html
 ########################################################################################################################
 # Importar pacotes
@@ -25,11 +25,11 @@ img_rgb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2RGB)
 ########################################################################################################################
 # Filtros
 # Média
-img_fm_1 = cv2.blur(img_rgb,(10,10))
+img_fm_1 = cv2.blur(img_rgb,(11,11))
 
-img_fm_2 = cv2.blur(img_rgb,(20,20))
+img_fm_2 = cv2.blur(img_rgb,(21,21))
 
-img_fm_3 = cv2.blur(img_rgb,(30,30))
+img_fm_3 = cv2.blur(img_rgb,(31,31))
 
 ########################################################################################################################
 # Apresentar imagens no matplotlib
@@ -44,19 +44,19 @@ plt.subplot(2,2,2)
 plt.imshow(img_fm_1)
 plt.xticks([]) # Eliminar o eixo X
 plt.yticks([]) # Eliminar o eixo Y
-plt.title("10x10")
+plt.title("11x11")
 
 plt.subplot(2,2,3)
 plt.imshow(img_fm_2)
 plt.xticks([]) # Eliminar o eixo X
 plt.yticks([]) # Eliminar o eixo Y
-plt.title("20x20")
+plt.title("21x21")
 
 plt.subplot(2,2,4)
 plt.imshow(img_fm_3)
 plt.xticks([]) # Eliminar o eixo X
 plt.yticks([]) # Eliminar o eixo Y
-plt.title("30x30")
+plt.title("31x31")
 
 plt.show()
 ########################################################################################################################
