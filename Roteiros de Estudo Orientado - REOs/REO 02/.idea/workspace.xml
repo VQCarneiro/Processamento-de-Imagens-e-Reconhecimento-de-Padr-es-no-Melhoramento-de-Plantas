@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23140cbb-7e21-4753-8798-0970edc5bf9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/aula_09_ex_01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/aula_09_ex_02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/cafe.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/feijao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/feijao_segmentada.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/img_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/img_seg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/macas.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/s16.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/s5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/trabalho.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AULA_09/vermelho.jpeg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +25,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
+        <entry file="file://$PROJECT_DIR$/AULA_09/aula_09_ex_01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            <state relative-caret-position="-822">
+              <caret line="104" column="45" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="45" />
               <folding>
-                <element signature="e#775#811#0" expanded="true" />
+                <element signature="e#760#770#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AULA_07/mascara.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AULA_07/segmentada.png">
-          <provider selected="true" editor-type-id="images" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/AULA_07/trabalho.jpeg">
+        <entry file="file://$PROJECT_DIR$/AULA_09/macas.jpg">
           <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
@@ -61,13 +62,14 @@
         <option value="$PROJECT_DIR$/AULA_08/aula_08_ex_04.py" />
         <option value="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" />
         <option value="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" />
+        <option value="$PROJECT_DIR$/AULA_09/aula_09_ex_01.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-10" />
-    <option name="width" value="1938" />
-    <option name="height" value="1058" />
+    <option name="x" value="952" />
+    <option name="width" value="977" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -75,7 +77,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -86,22 +87,25 @@
             <path>
               <item name="REO 02" type="b2602c69:ProjectViewProjectNode" />
               <item name="REO 02" type="462c0819:PsiDirectoryNode" />
-              <item name="AULA_07" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="REO 02" type="b2602c69:ProjectViewProjectNode" />
-              <item name="REO 02" type="462c0819:PsiDirectoryNode" />
-              <item name="AULA_08" type="462c0819:PsiDirectoryNode" />
+              <item name="AULA_09" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/AULA_09" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Cliente\Documents\GitHub\Visao-Computacional-no-Melhoramento-de-Plantas\Roteiros de Estudo Orientado - REOs\REO 02\AULA_09" />
+      <recent name="C:\Users\Cliente\Documents\GitHub\Visao-Computacional-no-Melhoramento-de-Plantas\Roteiros de Estudo Orientado - REOs\REO 02\AULA 09" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -115,7 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aula_07_ex_02">
+  <component name="RunManager" selected="Python.aula_09_ex_01">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +141,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="aula_06_ex_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="aula_06_ex_08" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="REO 02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -145,11 +149,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AULA_06" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="G:/Meu Drive/UFLA/DISCIPLINAS/POS_GRADUACAO/IMAGENS/REOs/REO 02/SCRIPTS/REO 02/AULA_05" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AULA_06/aula_06_ex_02.py" />
+      <option name="SCRIPT_NAME" value="G:/Meu Drive/UFLA/DISCIPLINAS/POS_GRADUACAO/IMAGENS/REOs/REO 02/SCRIPTS/REO 02/AULA_05/aula_06_ex_08.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -221,7 +225,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="skmage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="aula_09_ex_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="REO 02" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -229,11 +233,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AULA_06" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AULA_09" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AULA_06/skmage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AULA_09/aula_09_ex_01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -257,14 +261,16 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.aula_06_ex_02" />
       <item itemvalue="Python.aula_07_ex_01" />
       <item itemvalue="Python.aula_07_ex_02" />
-      <item itemvalue="Python.skmage" />
       <item itemvalue="Python.aula_08_ex_04" />
+      <item itemvalue="Python.aula_06_ex_08" />
+      <item itemvalue="Python.aula_09_ex_01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula_09_ex_01" />
+        <item itemvalue="Python.aula_06_ex_08" />
         <item itemvalue="Python.aula_07_ex_02" />
         <item itemvalue="Python.aula_07_ex_01" />
         <item itemvalue="Python.aula_08_ex_04" />
@@ -285,14 +291,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1550" height="846" extended-state="0" />
+    <frame x="762" y="0" width="781" height="830" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15147454" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15137307" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35104895" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20314735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -310,13 +316,6 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AULA_04/aula_4_ex_03.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AULA_05/aula_05_ex_01.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="284">
@@ -335,13 +334,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="214">
           <caret line="55" column="26" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AULA_05/aula_05_ex_04.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="30" column="22" lean-forward="true" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -401,8 +393,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AULA_07/trabalho.jpeg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AULA_07/mascara.png">
       <provider selected="true" editor-type-id="images" />
@@ -410,12 +406,104 @@
     <entry file="file://$PROJECT_DIR$/AULA_07/segmentada.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
+    <entry file="file://$PROJECT_DIR$/AULA_07/trabalho.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_03/aula_03_ex_04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        <state relative-caret-position="-1470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_04/aula_4_ex_03.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://G:/Meu Drive/UFLA/DISCIPLINAS/POS_GRADUACAO/IMAGENS/REOs/REO 02/SCRIPTS/REO 02/AULA_05/aula_06_ex_08.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="25" column="7" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_05/aula_05_ex_04.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_08/vermelho.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_03/feijao_segmentada.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s5.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_02/img_quadrado.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_01/feijao.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_01/macas.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_01/img_rgb.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_01/img_quadrados_cores.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_02/macas.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/segmentada.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/sb2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s14.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_06/s15.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/aula_09_ex_02.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/Imagem1.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/img_01.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/s16.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/macas.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_09/aula_09_ex_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-822">
+          <caret line="104" column="45" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="45" />
           <folding>
-            <element signature="e#775#811#0" expanded="true" />
+            <element signature="e#760#770#0" expanded="true" />
           </folding>
         </state>
       </provider>
