@@ -10,17 +10,16 @@
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
 # PROCEDIMENTO: Segmentação Watershed
+# Adaptado de: https://www.pyimagesearch.com/2015/11/02/watershed-opencv/
+# http://www.cmm.mines-paristech.fr/~beucher/wtshed.html
 ########################################################################################################################
 from skimage.feature import peak_local_max
 from skimage.morphology import watershed
-from scipy import ndimage
 import numpy as np
-import imutils
 import cv2
 from matplotlib import pyplot as plt
 from scipy import ndimage
 ########################################################################################################################
-
 #img_bgr = cv2.imread('vermelho.jpeg')
 img_bgr = cv2.imread('batata.jpg')
 img_ycrcb = cv2.cvtColor(img_bgr,cv2.COLOR_BGR2YCR_CB)
@@ -30,19 +29,28 @@ y,cr,cb = cv2.split(img_ycrcb)
 limiar, mascara = cv2.threshold(cr,0,255,cv2.THRESH_BINARY+cv2.THRESH_OTSU)
 
 ########################################################################################################################
-# compute the exact Euclidean distance from every binary
-# pixel to the nearest zero pixel, then find peaks in this
-# distance map
-D = ndimage.distance_transform_edt(mascara)
-localMax = peak_local_max(D, indices=False, min_distance=300,
+img_dist = ndimage.distance_transform_edt(mascara) # https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.distance_transform_edt.html
+# ndimage.distance_transform_edt: Como o nome sugere, essa função calcula a distância euclidiana até o zero mais próximo (ou seja, pixel de fundo)
+# para cada um dos pixels de primeiro plano.
+
+max_local = peak_local_max(img_dist, indices=False, min_distance=300,
 	labels=mascara)
-# perform a connected component analysis on the local peaks,
-# using 8-connectivity, then appy the Watershed algorithm
-markers = ndimage.label(localMax, structure=np.ones((3, 3)))[0]
-labels = watershed(-D, markers, mask=mascara)
-print("[INFO] {} unique segments found".format(len(np.unique(labels)) - 1))
+# https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.peak_local_max
+# min_distance: Número mínimo de pixels que separam os picos
+
+marcadores,n_marcadores = ndimage.label(max_local, structure=np.ones((3, 3)))
+# https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.label.html
+# https://en.wikipedia.org/wiki/Connected-component_labeling
+
+img_ws = watershed(-img_dist, marcadores, mask=mascara)
+# https://scikit-image.org/docs/dev/api/skimage.morphology.html#skimage.morphology.watershed
+# https://en.wikipedia.org/wiki/Watershed_(image_processing)
+# https://scikit-image.org/docs/dev/auto_examples/segmentation/plot_watershed.html
+
+print("Número de Batatas: ", len(np.unique(img_ws)) - 1)
+
 img_final = np.copy(img_rgb)
-img_final[labels != 3] = [0,0,0]
+img_final[img_ws != 3] = [0,0,0]
 ########################################################################################################################
 plt.figure('Watershed')
 plt.subplot(2,3,1)
@@ -64,13 +72,13 @@ plt.yticks([])
 plt.title('Mascara')
 
 plt.subplot(2,3,4)
-plt.imshow(D,cmap='jet')
+plt.imshow(img_dist,cmap='jet')
 plt.xticks([])
 plt.yticks([])
 plt.title('Distância')
 
 plt.subplot(2,3,5)
-plt.imshow(labels,cmap='jet')
+plt.imshow(img_ws,cmap='jet')
 plt.xticks([])
 plt.yticks([])
 plt.title('Batatas')
