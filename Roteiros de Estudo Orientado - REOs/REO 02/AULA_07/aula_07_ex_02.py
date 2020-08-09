@@ -9,30 +9,32 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Identificação de Objetos
+# PROCEDIMENTO: Filtros de detecção de bordas
 ########################################################################################################################
 # Importar pacotes
-import cv2 # Importa o pacote opencv
+import cv2
 import numpy as np
-from matplotlib import pyplot as plt # Importa o pacote matplotlib
-import imutils
-from skimage.measure import label, regionprops
-import skimage
+from matplotlib import pyplot as plt
 ########################################################################################################################
 # Leitura da imagem
 
 #nome_arquivo = 'mascara.png'
-nome_arquivo = 'segmentada.png'
-#nome_arquivo = 'trabalho.jpeg'
+#nome_arquivo = 'segmentada.png'
+nome_arquivo = 'trabalho.jpeg'
 img = cv2.imread(nome_arquivo,0)
-#img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 ########################################################################################################################
 # Filtros
 img_l = cv2.Laplacian(img,cv2.CV_64F)
+abs_l64f = np.absolute(img_l)
+img_l = np.uint8(abs_l64f)
 img_sx = cv2.Sobel(img,cv2.CV_64F,1,0,ksize=5)
+abs_sx64f = np.absolute(img_sx)
+img_sx = np.uint8(abs_sx64f)
 img_sy = cv2.Sobel(img,cv2.CV_64F,0,1,ksize=5)
+abs_sy64f = np.absolute(img_sy)
+img_sy = np.uint8(abs_sy64f)
 
-# DEtecção de bordas Canny
+# Detecção de bordas Canny
 edges = cv2.Canny(img,100,200)
 ########################################################################################################################
 # Resultados

@@ -9,28 +9,24 @@
 # E-mail: vinicius.carneiro@ufla.br
 # GITHUB: vqcarneiro - https://github.com/VQCarneiro
 ########################################################################################################################
-# PROCEDIMENTO: Identificação de Objetos
+# PROCEDIMENTO: Transformações Morfológicas
 ########################################################################################################################
 # Importar pacotes
-import cv2 # Importa o pacote opencv
+import cv2
 import numpy as np
-from matplotlib import pyplot as plt # Importa o pacote matplotlib
-import imutils
-from skimage.measure import label, regionprops
+from matplotlib import pyplot as plt
 import skimage
 ########################################################################################################################
 # Leitura da imagem
-
 nome_arquivo = 'mascara.png'
-nome_arquivo = 'segmentada.png'
 img = cv2.imread(nome_arquivo,0)
-#img = cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
 ########################################################################################################################
 # Transformações Morfológicas
 
 kernel = np.ones((5,5),np.uint8)
 # Erosão
 img_e = cv2.erode(img,kernel,iterations = 10)
+
 # Dilatação
 img_d = cv2.dilate(img,kernel,iterations = 10)
 
@@ -41,7 +37,7 @@ img_a = cv2.morphologyEx(img_ruido, cv2.MORPH_OPEN, kernel)
 # Fechamento - Dilatação seguida por erosão
 img_f = cv2.morphologyEx(img_a, cv2.MORPH_CLOSE, kernel)
 
-#Gradiente morfológico - Diferença entre dilatação e eroção
+#Gradiente morfológico - Diferença entre dilatação e erosão
 img_g = cv2.morphologyEx(img, cv2.MORPH_GRADIENT, kernel)
 ########################################################################################################################
 # Resultados

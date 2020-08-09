@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23140cbb-7e21-4753-8798-0970edc5bf9d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/REO 02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/REO 02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AULA_08/aula_08_ex_04.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULA_08/aula_08_ex_04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" beforeDir="false" afterPath="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,15 +14,30 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/AULA_08/aula_08_ex_04.py">
+        <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
+            <state relative-caret-position="52">
+              <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
               <folding>
-                <element signature="e#879#921#0" expanded="true" />
+                <element signature="e#775#811#0" expanded="true" />
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AULA_07/mascara.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AULA_07/segmentada.png">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AULA_07/trabalho.jpeg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
@@ -46,14 +59,15 @@
         <option value="$PROJECT_DIR$/AULA_05/aula_05_ex_04.py" />
         <option value="$PROJECT_DIR$/AULA_06/aula_06_ex_01.py" />
         <option value="$PROJECT_DIR$/AULA_08/aula_08_ex_04.py" />
+        <option value="$PROJECT_DIR$/AULA_07/aula_07_ex_01.py" />
+        <option value="$PROJECT_DIR$/AULA_07/aula_07_ex_02.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1937" />
-    <option name="height" value="1057" />
+    <option name="x" value="-10" />
+    <option name="width" value="1938" />
+    <option name="height" value="1058" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -68,6 +82,11 @@
             <path>
               <item name="REO 02" type="b2602c69:ProjectViewProjectNode" />
               <item name="REO 02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="REO 02" type="b2602c69:ProjectViewProjectNode" />
+              <item name="REO 02" type="462c0819:PsiDirectoryNode" />
+              <item name="AULA_07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="REO 02" type="b2602c69:ProjectViewProjectNode" />
@@ -96,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.aula_08_ex_04">
+  <component name="RunManager" selected="Python.aula_07_ex_02">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,6 +265,8 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.aula_07_ex_02" />
+        <item itemvalue="Python.aula_07_ex_01" />
         <item itemvalue="Python.aula_08_ex_04" />
       </list>
     </recent_temporary>
@@ -264,14 +285,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1549" height="845" extended-state="0" />
+    <frame x="-8" y="0" width="1550" height="846" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.15157612" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.15147454" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3529412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35104895" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -280,12 +301,12 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Data View" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" />
+      <window_info anchor="right" id="R Packages" order="5" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -343,20 +364,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_01.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="28" column="17" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AULA_06/aula_06_ex_02.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -380,6 +387,35 @@
           <caret line="65" column="50" selection-start-line="65" selection-start-column="50" selection-end-line="65" selection-end-column="50" />
           <folding>
             <element signature="e#879#921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="85" column="22" lean-forward="true" selection-start-line="85" selection-start-column="22" selection-end-line="85" selection-end-column="22" />
+          <folding>
+            <element signature="e#770#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_07/trabalho.jpeg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_07/mascara.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_07/segmentada.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AULA_07/aula_07_ex_02.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <folding>
+            <element signature="e#775#811#0" expanded="true" />
           </folding>
         </state>
       </provider>
